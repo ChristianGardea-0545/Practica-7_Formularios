@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario con agrupamiento</title>
+
+<!-- Libreria de iconos en linea -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+<!-- Permite utilizar iconos de Font Awesome -->
+
+</head>
+<body>
+
+<h1>Formulario con agrupamiento</h1>
+<!-- Muestra el titulo principal -->
+
+<form action="" method="post">
+<!-- Inicia el formulario -->
+
+<fieldset>
+<!-- Agrupa un conjunto de campos relacionados -->
+
+<legend>Datos personales</legend>
+<!-- Muestra el titulo del grupo -->
+
+Nombre y apellido:
+<!-- Indica que se debe escribir el nombre -->
+
+<input type="text" name="nombre_apellido">
+<!-- Crea un campo para escribir el nombre y apellido -->
+
+<br>
+<!-- Realiza un salto de linea -->
+
+Documento valido:
+<!-- Indica que se debe seleccionar un documento -->
+
+<input type="file" name="documento">
+<!-- Permite seleccionar un archivo de documento -->
+
+<br>
+<!-- Realiza un salto de linea -->
+
+Fecha de nacimiento:
+<!-- Indica que se debe introducir la fecha de nacimiento -->
+
+<input type="date" name="fecha_nacimiento">
+<!-- Crea un campo para seleccionar una fecha -->
+
+</fieldset>
+<!-- Cierra el primer grupo de campos -->
+
+<fieldset>
+<!-- Crea un segundo grupo de campos -->
+
+<legend>Datos de estudio:</legend>
+<!-- Muestra el titulo del segundo grupo -->
+
+Nombre de la escuela:
+<!-- Indica que se debe escribir el nombre de la escuela -->
+
+<input type="text" name="escuela">
+<!-- Crea un campo para escribir el nombre de la escuela -->
+
+<br>
+<!-- Realiza un salto de linea -->
+
+Certificado valido:
+<!-- Indica que se debe seleccionar un certificado -->
+
+<input type="file" name="certificado">
+<!-- Permite seleccionar un archivo -->
+
+<br>
+<!-- Realiza un salto de linea -->
+
+Fecha de egreso:
+<!-- Indica que se debe introducir la fecha de egreso -->
+
+<input type="date" name="fecha_egreso">
+<!-- Crea un campo para seleccionar una fecha -->
+
+</fieldset>
+<!-- Cierra el segundo grupo de campos -->
+
+<br>
+<!-- Realiza un salto de linea -->
+
+<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i></button>
+<!-- Crea un boton para enviar los datos -->
+
+<button type="reset">Borrar <i class="fa fa-trash"></i></button>
+<!-- Crea un boton para borrar los datos -->
+
+</form>
+<!-- Cierra el formulario -->
+
+</body>
+</html>
